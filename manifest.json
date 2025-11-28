@@ -1,6 +1,12 @@
 {
   "manifest_version": 3,
   "version": "0.6.8.2",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "autotabdiscard@local.user",
+      "strict_min_version": "109.0"
+    }
+  },
   "name": "Auto Tab Discard (edited)",
   "description": "__MSG_app_description__",
   "default_locale": "en",
