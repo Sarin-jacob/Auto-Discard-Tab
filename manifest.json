@@ -4,7 +4,10 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "autotabdiscard@local.user",
-      "strict_min_version": "109.0"
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "collects_data": false
+      }
     }
   },
   "name": "Auto Tab Discard (edited)",
@@ -88,4 +91,5 @@
     "resources": ["/data/page.png"],
     "matches": ["*://*/*"]
   }]
+
 }
